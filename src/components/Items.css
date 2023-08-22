@@ -1,0 +1,62 @@
+.ore {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_ore_block.png');
+    animation: playAnimation 1s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.ingot {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_ingot.png');
+    animation: playAnimation 1s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.sword {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_sword.png');
+    animation: playAnimation 0.5s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.shovel {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_shovel.png');
+    animation: playAnimation 1s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.pickaxe {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_pickaxe.png');
+    animation: playAnimation 1s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.axe {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_axe.png');
+    animation: playAnimation 1s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.hoe {
+    width: 32px; /* Ancho de un fotograma */
+    height: 32px; /* Alto de un fotograma */
+    background-image: url('../assets/img/pleyarite_hoe.png');
+    animation: playAnimation 1s steps(8) infinite; /* 10 fotogramas en tu ejemplo */
+}
+
+.d-flex * {
+    margin: 0 5px 20px 5px;
+    background-size: 100%;
+}
+
+@keyframes playAnimation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -256px; /* Cambia el valor según la cantidad de fotogramas */
+    }
+}
