@@ -11,3 +11,12 @@ h1 {
 .credits {
   color: black;
 }
+
+.description {
+  margin: 0 auto;
+  width: 50%;
+}
+
+button {
+  margin-bottom: 20px;
+}
